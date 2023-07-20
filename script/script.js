@@ -44,11 +44,3 @@ document.addEventListener("DOMContentLoaded",function(event){ //mendengarkan apa
         ket.textContent = "Hubungi dokter lebih lanjut mengenai pola makan dan gizi yang baik untuk meningkatkan kesehatan.";
     }
 })
-
-function reset(){
-    document.getElementById("kondisi").innerHTML = '';
-    document.getElementById("comment").innerHTML = '';
-    document.getElementById("interpretasi").innerHTML = '';
-    document.getElementById("kategori").innerHTML = '';
-    document.getElementById("ket").innerHTML = '';
-}
